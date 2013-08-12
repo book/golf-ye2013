@@ -1,9 +1,9 @@
-       bw
+ bwb     
+ bwbwb   
+ bwbb    
          
          
- wbw     
- wbw     
-  w      
          
-   b     
-   wb    
+         
+         
+         
