@@ -3,7 +3,7 @@ http://contest.reg.ru/
 
 Perl Golf from REG.RU
 
-= Legend
+# Legend
 
 You are a son of an honorable Japanese nobleman of the Edo period. You
 have always dreamed of becoming a programmer, but family traditions
@@ -20,7 +20,7 @@ since paper is rather expensive in the Edo period, the program has to
 be as short as possible.
 
 
-= Go game basics
+# Go game basics
 
 Go is a very ancient strategic table game which appeared in China several
 thousands of years ago and reached its golden age in Japan. The game is
@@ -37,7 +37,7 @@ put a stone into the "х" point:
     .........    . . x . .
 
 
-= Specifications:
+# Specifications:
 
 1. Problems are given for a training board with the size of 9×9.
 2. Black moves first.
@@ -57,11 +57,13 @@ capture of white stones. Points are to be output in the order of their
 position on the board (left to right, top to bottom).
 
 The contest is based on regular Perl Golf rules:
+
 1. The winner is the shortest program which passes all the tests.
 2. Shebang must look like #!perl or #!perl -flags. #!perl is not included in the symbol count, but the flags (including "-" symbols) are counted.
 3. All remaining symbols, including spaces and new line symbols, are counted.
 4. The program may not use other modules, invoke external programs or access external data sources.
 5. The solution must work correctly in Perl version 5.18.0, without any output to STDERR.
+
 Solutions will be accepted at contest@reg.ru up to 16:00, August 13.
 
 The winner will be awarded at 16:30, August 13 at the REG.RU stand.
