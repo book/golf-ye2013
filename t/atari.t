@@ -4,7 +4,6 @@ use Test::More;
 use File::Slurp qw( slurp );
 
 my @Q = <t/*.q>;    # >
-diag @Q;
 
 for my $Q (@Q) {
     ( my $A = $Q ) =~ s/\.q$/.a/;
