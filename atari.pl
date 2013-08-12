@@ -10,4 +10,4 @@ if($b[$.][$_]eq"w"){
 elsif($b[$.][$_]eq" "){
     push @{ $l{"@{[$.-1,$_]}"} }, [ $_, $. ] if $b[ $. - 1 ][$_] eq "w";
     push @{ $l{"@{[$.,$_-1]}"} }, [ $_, $. ] if $b[$.][ $_ - 1 ] eq "w";
-}}}{print for sort map"@{$l{$_}[0]}",grep@{$l{$_}}==1,keys%l;
+}}}{print for sort map@{$l{$_}}-1?():"@{$l{$_}[0]}",keys%l;
