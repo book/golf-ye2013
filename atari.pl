@@ -1,1 +1,1 @@
-#!perl -p
+#!perl -ln
