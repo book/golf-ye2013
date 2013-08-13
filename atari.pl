@@ -1,6 +1,6 @@
 #!perl -ln
-sub L{$k=pop;my%t;$l[$b[$k]]=[grep!$t{$_}++,@{$l[$b[$k]]},@_]if
-pop()?$b[pop]eq$":$b[$k]>0}sub
+sub L{$Z=$b[$k=pop];my%t;$l[$Z]=[grep!$t{$_}++,@{$l[$Z]},@_]if
+pop()?$b[pop]eq$":$Z>0}sub
 S{($m,$n)=@_;($M,$N)=sort$$m,$$n;L@{delete$l[$N]},0,$c
-if$N!=($$m=$$n=$M)}$i=1;for(split//){$b[$c=$..$i]=/w/?++$e:$_;$R=$.-1;$C=$i-1;/w/&&do{$b[$_]>0&&S\$b[$c],\$b[$_]for$R.$i,$..$C;L"$R $i",$R.$i,1,$c;L"$. $C",$..$C,1,$c};/ /&&do{L"$. $i",0,$R.$i;L"$. $i",0,$..$C};$i++}}{print
+if$N!=($$m=$$n=$M)}$i=1;for(split//){$b[$c=$..$i]=/w/?++$e:$_;$x=($R=$.-1).$i;$y=$..($C=$i-1);/w/&&do{$b[$_]>0&&S\$b[$c],\$b[$_]for$x,$y;L"$R $i",$x,1,$c;L"$. $C",$y,1,$c};/ /&&do{L"$. $i",0,$x;L"$. $i",0,$y};$i++}}{print
 for sort grep!$s{$_}++,map@$_-1?():@$_,@l
