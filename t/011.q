@@ -1,0 +1,9 @@
+          
+          
+          
+   bbb    
+  bwwwb   
+   bw     
+    b     
+          
+          
